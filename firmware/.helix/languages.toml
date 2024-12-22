@@ -1,0 +1,10 @@
+[[language]]
+name = "rust"
+
+# [languages.rust]
+# lsp = "rust-analyzer"
+# root = "."
+
+[language-server.rust-analyzer.config]
+check.allTargets = false
+cargo.target = "xtensa-esp32s3-none-elf"
